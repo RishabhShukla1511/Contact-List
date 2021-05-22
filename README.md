@@ -1,2 +1,2 @@
 # Contact-List
-A website to display, add, and remove contacts
+A Vue Project to display, add, and remove contacts
