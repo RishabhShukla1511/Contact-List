@@ -1,0 +1,90 @@
+body {
+    font-family: sans-serif;
+    font-size: medium;
+    background-color: rgb(77, 73, 73);
+    align-items: center;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 4em;
+}
+
+h4 {
+    font-size: 1.5em;
+}
+
+.btn-danger {
+    float: right;
+    vertical-align: middle;
+    background-color: rgb(221, 27, 27);
+    color: white;
+    width: 10%;
+    padding: 1em;
+    border: none;
+    border-radius: 1em;
+    cursor: pointer;
+}
+
+.btn-ac {
+    color: white;
+    width: 10%;
+    padding: 1em;
+    border: none;
+    border-radius: 1em;
+    cursor: pointer;
+    background-color: green;
+    margin: 1em 30% 1.5em 45%;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    align-self: left;
+    border-radius: 50%;
+}
+
+.call-img {
+    width: 5%;
+    height: 3%;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 90%;
+    height: 5%;
+    padding: 1em;
+    margin: 1.7em 1.7em 1.7em 3.3em;
+    background-color: wheat;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgb(0, 0, 0);
+}
+
+.container {
+    line-height: 0.1em;
+}
+
+input[type="text"] {
+    width: 90%;
+    margin-left: 1em;
+    border-radius: 0.5em;
+    padding: 0.6em;
+    border: none;
+}
+
+input[type="tel"] {
+    width: 90%;
+    margin-left: 0.6em;
+    border-radius: 0.5em;
+    padding: 0.6em;
+    border: none;
+}
+
+.required{
+    color: red;
+}
